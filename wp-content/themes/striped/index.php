@@ -10,11 +10,11 @@
 					<!-- Post -->
 						<article class="box post post-excerpt">
 							<header>
-								<h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
-								<p>Feugiat interdum sed commodo ipsum consequat dolor nullam metus</p>
+								<h2><a href="?php the_permalink(); ?>"> <?php the_title(); ?> </a></h2>
+								<p><?php the_excerpt(); ?></p>
 							</header>
 							<div class="info">
-								<span class="date"><span class="month">Jul<span>y</span></span> <span class="day">8</span><span class="year">, 2014</span></span>
+								<span class="date"><span class="month"> <?php echo get_the_date('M'); ?> <span>y</span></span> <span class="day"> <?php echo get_the_date('d'); ?> </span><span class="year">, 2014</span></span>
 								<ul class="stats">
 									<li><a href="#" class="icon fa-comment">16</a></li>
 									<li><a href="#" class="icon fa-heart">32</a></li>
@@ -22,13 +22,8 @@
 									<li><a href="#" class="icon brands fa-facebook-f">128</a></li>
 								</ul>
 							</div>
-							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-							<p>
-								Quisque vel sapien sit amet tellus elementum ultricies. Nunc vel orci turpis. Donec id malesuada metus.
-								Nunc nulla velit, fermentum quis interdum quis, tate etiam commodo lorem ipsum dolor sit amet dolore.
-								Quisque vel sapien sit amet tellus elementum ultricies. Nunc vel orci turpis. Donec id malesuada metus.
-								Nunc nulla velit, fermentum quis interdum quis, convallis eu sapien. Integer sed ipsum ante.
-							</p>
+							<a href="<?php the_permalink(); ?>" class="image featured"> <?php the_post_thumbnail ('full'); ?>  </a>
+							<?php the_content (); ?>
 						</article>
 						
                     <?php endif; endwhile; ?>

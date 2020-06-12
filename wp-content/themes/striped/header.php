@@ -11,7 +11,7 @@
 		<div id="sidebar">
 
 <!-- Logo -->
-	<h1 id="logo"><a href="#">STRIPED</a></h1>
+	<h1 id="logo"><a href= "<?php echo home_url('/'); ?>"> STRIPED </a></h1>
 
 <!-- Nav -->
 	<nav id="nav">
