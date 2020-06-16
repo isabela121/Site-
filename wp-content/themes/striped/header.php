@@ -11,15 +11,15 @@
 		<div id="sidebar">
 
 <!-- Logo -->
-	<h1 id="logo"><a href= "<?php echo home_url('/'); ?>"> STRIPED </a></h1>
+	<h1 id="logo"><a href= "<?php echo home_url('/'); ?>"> TECLECOD </a></h1>
 
 <!-- Nav -->
 	<nav id="nav">
 		<ul>
-			<li class="current"><a href="#">Latest Post</a></li>
-			<li><a href="#">Archives</a></li>
-			<li><a href="#">About Me</a></li>
-			<li><a href="#">Contact Me</a></li>
+			<li class="current"><a href="#">Postagem Recente</a></li>
+			<li><a href="#">Arquivos</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Contato</a></li>
 		</ul>
 	</nav>
 
@@ -34,8 +34,7 @@
 	<section class="box text-style1">
 		<div class="inner">
 			<p>
-				<strong>Striped:</strong> A free and fully responsive HTML5 site
-				template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
+				<strong>Blog</strong> Notícias TI <a href="http://www.interatisa.com.br"> </a><a href="http://www.interatisa.com.br">INTERATISA</a>
 			</p>
 		</div>
 	</section>
@@ -43,7 +42,7 @@
 <!-- Recent Posts -->
 	<section class="box recent-posts">
 		<header>
-			<h2>Recent Posts</h2>
+			<h2>Postagem Recente</h2>
 		</header>
 		<ul>
 			<li><a href="#">Lorem ipsum dolor</a></li>
@@ -57,7 +56,7 @@
 <!-- Recent Comments -->
 	<section class="box recent-comments">
 		<header>
-			<h2>Recent Comments</h2>
+			<h2>Comentários Recentes</h2>
 		</header>
 		<ul>
 			<li>case on <a href="#">Lorem ipsum dolor</a></li>
